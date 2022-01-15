@@ -38,7 +38,6 @@ noscript {
   align-items: center;
   align-self: center;
   color: aqua;
-  width: 50%;
   margin: 0% auto;
 }
 
@@ -50,7 +49,6 @@ tbtn+tbtn {
   text-align: center;
   font-size: var(--logo-size);
   margin: 0% auto;
-  
   padding: 10px;
 }
 
@@ -82,6 +80,15 @@ ul {
 #ul_checkmarks_green li::before {
   content: "✓";
   color: #4f0;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#ul_stars_yellow li::before {
+  content: "★";
+  color: #ff0;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -144,7 +151,7 @@ ul {
 }
 
 footer {
-    font-size: 125%;
+  font-size: 125%;
   color: #0f3;
   text-align: center;
 }
