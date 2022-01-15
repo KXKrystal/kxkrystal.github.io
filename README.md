@@ -1,1 +1,1 @@
-# my website before moving it to my on webservers
+# my website before moving it to my on webserver
