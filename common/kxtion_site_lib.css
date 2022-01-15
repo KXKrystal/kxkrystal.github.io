@@ -114,7 +114,7 @@ ul {
 }
 
 #ul_x_red li::before {
-  content: "x";
+  content: "✕";
   color: #f00;
   font-weight: bold;
   display: inline-block;
