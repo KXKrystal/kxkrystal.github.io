@@ -3,7 +3,7 @@
 
 :root {
   --text-color: rgb(182, 182, 182);
-  --background-color: rgb(0, 0, 0);
+  --background-color: #000;
   --text-font-size: 100%;
   --logo-size: 275%;
 }
@@ -27,7 +27,7 @@ html {
 
 noscript {
   border-style: dotted;
-  color: tomato;
+  color: #c62;
 }
 
 #navigation {
@@ -80,7 +80,7 @@ ul {
 
 #ul_checkmarks_green li::before {
   content: "✓";
-  color: rgb(21, 255, 0);
+  color: #4f0;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -89,7 +89,7 @@ ul {
 
 #ul_hearts_red li::before {
   content: "❤";
-  color: rgb(255, 0, 0);
+  color: #f00;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -98,7 +98,7 @@ ul {
 
 #ul_bhearts_red li::before {
   content: "💔";
-  color: rgb(255, 0, 0);
+  color: #f00;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -107,7 +107,7 @@ ul {
 
 #ul_x_red li::before {
   content: "x";
-  color: rgb(255, 0, 0);
+  color: #f00;
   font-weight: bold;
   display: inline-block;
   width: 1em;
@@ -116,17 +116,17 @@ ul {
 
 .gradient {
   background: linear-gradient(to left,
-      rgba(255, 0, 0, 1) 0%,
-      rgba(255, 154, 0, 1) 10%,
-      rgba(208, 222, 33, 1) 20%,
-      rgba(79, 220, 74, 1) 30%,
-      rgba(63, 218, 216, 1) 40%,
-      rgba(47, 201, 226, 1) 50%,
-      rgba(28, 127, 238, 1) 60%,
-      rgba(95, 21, 242, 1) 70%,
-      rgba(186, 12, 248, 1) 80%,
-      rgba(251, 7, 217, 1) 90%,
-      rgba(255, 0, 0, 1) 100%);
+      #f00 0%,
+      #e72 10%,
+      #ff0 20%,
+      #0f3 30%,
+      #0f7 40%,
+      #0FF 50%,
+      #09F 60%,
+      #00F 70%,
+      #80F 80%,
+      #c08 90%,
+      #f00 100%);
   background-size: 200% auto;
 
   background-clip: text;
@@ -144,6 +144,6 @@ ul {
 }
 
 footer {
-  color: rgb(0, 255, 128);
+  color: #0f3;
   text-align: center;
 }
