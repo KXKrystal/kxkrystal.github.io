@@ -131,7 +131,6 @@ ul {
   background-size: 200% auto;
 
   background-clip: text;
-
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: grad_animation 3s linear infinite;
