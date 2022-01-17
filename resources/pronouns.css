@@ -1,18 +1,1 @@
-#text_box_thing {
-	display: flex;
-	padding: 1rem;
-}
-
-#names {
-	flex: 1;
-	align-items: flex-start;
-	padding: 1em;
-	border: solid;
-}
-
-#pronouns {
-	flex: 1;
-	padding: 1em;
-	border: solid;
-	align-items: flex-end;
-}
+#text_box_thing{display:flex;padding:1rem}#names{flex:1;align-items:flex-start;padding:1em;border:solid}#pronouns{flex:1;padding:1em;border:solid;align-items:flex-end}
